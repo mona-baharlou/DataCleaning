@@ -12,9 +12,9 @@ The initial phase of a crime data analysis project, focusing on cleaning and str
 
 2. **Load Dataset**:
    ```python
-   crime = pd.read_csv('crime.csv', encoding='latini')  # Likely a typo: 'latin1' encoding
+   crime = pd.read_csv('crime.csv', encoding='latin1') 
    ```
-   - Reads the CSV file `crime.csv` into a DataFrame. The encoding argument `'latini'` is likely intended to be `'latin1'`.
+   - Reads the CSV file `crime.csv` into a DataFrame. The encoding argument is `'latin1'`.
 
 3. **Initial Data Inspection**:
    ```python
