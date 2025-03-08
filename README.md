@@ -42,12 +42,6 @@ The initial phase of a crime data analysis project, focusing on cleaning and str
    ```
    - Checks unique values in the `OFFENSE_CODE_GROUP` and `OFFENSE_DESCRIPTION` columns to understand crime categories.
 
-7. **Further Data Cleaning**:
-   ```python
-   cleaned_crime = clean_crime.drop(columns=['location'])
-   ```
-   - Drops the `location` column, possibly to simplify the dataset or because it contains redundant/geospatial data not needed for the current analysis.
-
 ---
 
 ### **Purpose**:
